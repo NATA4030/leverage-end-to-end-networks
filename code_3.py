@@ -1,14 +1,13 @@
-    for item in data:
-if __name__ == "__main__":
-    data = [random.randint(1, 100) for _ in range(10)]
+def main():
+    main()
+import random
         print(f"Random Number: {item}")
 
-    main()
     data = generate_random_data()
 
-
-
+if __name__ == "__main__":
 def generate_random_data():
-def main():
+    data = [random.randint(1, 100) for _ in range(10)]
     return data
-import random
+    for item in data:
+
